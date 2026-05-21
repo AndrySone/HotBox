@@ -1,0 +1,38 @@
+.gitingnore
+/.venv
+/docker
+/logs
+/-p
+/scripts/start.sh
+/test
+/venv
+
+.env
+docker-compose.yml
+start.bat
+start_postgres.bat
+test_moontraker.ps1
+
+Makefile
+Powershell_Logs.txt
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Local DB / data
+*.db
+*.sqlite
+*.sqlite3
+
+# Optional: common caches
+.cache/
+
+backend/__pycache__/
+frontend/node_modules/
+backend/data
+
+git add .gitignore
