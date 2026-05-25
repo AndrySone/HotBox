@@ -10,10 +10,8 @@
 
 ### Установка
 
-\`\`\`bash
 # Клонировать репозиторий
 git clone https://github.com/AndrySone/HotBox.git
-cd 3d-print-monitoring
 
 # Развернуть веб приложение
 
