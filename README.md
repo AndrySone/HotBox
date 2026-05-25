@@ -1,15 +1,12 @@
-# HotBox - 3D Print Monitoring System
+# HotBox / Интеллектуальная система мониторинга и анализа печати
 
-Интеллектуальная система мониторинга и анализа процесса 3D-печати 
-с использованием компьютерного зрения и глубокого обучения.
+Интеллектуальная система мониторинга и анализа процесса 3D-печати с использованием компьютерного зрения и глубокого обучения.
 
 ## Быстрый старт
 
 ### Требования
-- Docker & Docker Compose
 - Python 3.10+
 - Node.js 16+
-- GPU (NVIDIA RTX 3060 или выше для AI инференса)
 
 ### Установка
 
@@ -18,11 +15,7 @@
 git clone https://github.com/AndrySone/HotBox.git
 cd 3d-print-monitoring
 
-# Развернуть с Docker Compose
-docker-compose up -d
-
-# Приложение будет доступно по адресу http://localhost
-\`\`\`
+# Развернуть веб приложение
 
 cd D:\Работа\Вкр\HotBox
 
@@ -44,14 +37,7 @@ npm start
 - **frontend/** - React приложение
 - **esp32_client/** - Код для микроконтроллера
 - **models/** - ML модели
-- **training/** - Скрипты обучения
 
-## Документация
-
-- [Architecture](docs/ARCHITECTURE.md)
-- [API Documentation](docs/API_DOCUMENTATION.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## Лицензия
 
